@@ -1,81 +1,83 @@
-nav{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    height: 75px;
-    width: 100%;
-    position: sticky;
-    top:0;
-    left: 0;
-    right: 0;
-    z-index: 2;
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 75px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding-top: 5px;
 }
-nav>a{
-    margin: auto 50px;
-    font-family: 'Bebas Neue', cursive; 
-    /* font-family:'Poppins', sans-serif;  */
-    /* font-family:'Roboto', sans-serif;  */
-    font-size: 30px;
-    font-weight: 800;
-    text-decoration: none;
-    width: fit-content;
-    padding: 0px 7px;
-    border-radius: 5%;
+nav > a {
+  margin: auto 50px;
+  font-family: "Bebas Neue", cursive;
+  /* font-family:'Poppins', sans-serif;  */
+  /* font-family:'Roboto', sans-serif;  */
+  font-size: 30px;
+  font-weight: 800;
+  text-decoration: none;
+  width: fit-content;
+  padding: 0px 7px;
+  border-radius: 5%;
 }
-#check, #checkIcon{
-    display: none;
+#check,
+#checkIcon {
+  display: none;
 }
-nav>ul{
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-right: 50px;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  font-size: 18px;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: 0.5s ease;
+}
+
+nav > ul > li > a:hover {
+  transform: scaleX(1);
+}
+
+@media screen and (max-width: 1140px) {
+  #checkIcon {
     display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin-right: 50px;
-}
-nav>ul>li>a{
-    text-decoration: none;
-    font-size: 18px;
-    transform-origin: bottom right;
-    transform: scaleX(0);
-    transition: 0.5s ease;
-}
-
-nav>ul>li>a:hover{
-    transform: scaleX(1);
-}
-
-@media screen and (max-width:1200px) {
-    #checkIcon{
-        display: flex;
-        justify-content: end;
-        font-size: 50px;
-        margin-right: 40px;
-    }
-    .menuList{
-        position: fixed;
-        height: 100%;
-        width: 40%;
-        top: 75px;
-        right: -800px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        border-left: 1px solid;
-        transition: 0.5s ease-in-out;
-    }
-    .menuList>li{
-        margin-top: 50px;
-    }
-    #check:checked ~ .menuList{
-        right: -80px;
-    }
+    justify-content: end;
+    font-size: 50px;
+    margin-right: 40px;
+  }
+  .menuList {
+    position: fixed;
+    height: 100%;
+    width: 40%;
+    top: 75px;
+    right: -800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-left: 1px solid;
+    transition: 0.5s ease-in-out;
+  }
+  .menuList > li {
+    margin-top: 50px;
+  }
+  #check:checked ~ .menuList {
+    right: -80px;
+  }
 }
 
-@media screen and (max-width:850px) {
-    nav>a{
-        margin: 10px;
-    }
-    #checkIcon{
-        justify-content:flex-end;
-        font-size: 50px;
-    }
+@media screen and (max-width: 850px) {
+  nav > a {
+    margin: 10px;
+  }
+  #checkIcon {
+    justify-content: flex-end;
+    font-size: 50px;
+  }
 }

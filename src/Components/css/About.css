@@ -1,73 +1,81 @@
-.aboutContainer{
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+.aboutContainer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
-.leftPart{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.leftPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.leftPart .leftPicture{
-    height: 250px;
-    width: 250px;
-    background-color: gray;
-    border-radius: 7px;
+.leftPart .leftPicture {
+  height: 250px;
+  width: 250px;
+  background-color: gray;
+  border-radius: 7px;
+}
+.rightPart h1 {
+  margin-bottom: 20px;
+}
+.rightPart {
+  font-size: 18px;
+  text-align: justify;
+}
+.aboutContact {
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.aboutButton {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.aboutButton a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.aboutButton a:hover {
+  font-size: 20px;
+  transition: 0.3s;
+}
+.aboutButton button {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.aboutButton button:hover {
+  font-size: 20px;
+  transition: 0.3s;
+}
 
+@media screen and (max-width: 1140px) {
+  .aboutContainer {
+    grid-template-columns: 1fr;
+  }
+  .leftPart .leftPicture {
+    height: 100px;
+    width: 100px;
+  }
 }
-.rightPart h1{
-    margin-bottom: 20px;
-}
-.rightPart{
-    font-size: 18px;
-    text-align: justify;
-}
-.rightPart .aboutContact{
-    width: 80%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-.rightPart .aboutButton{
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    gap: 53px;
-}
-.aboutButton a{
-    font-size: 18px;
-    font-weight: 600;
-    text-decoration: underline;
-    text-transform: uppercase;
-    transition: 0.3s;
-}
-.aboutButton a:hover{
-    font-size: 20px;
-    transition: 0.3s;
-}
-.aboutButton button{
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    text-transform: uppercase;
-    transition: 0.3s;
-}
-.aboutButton button:hover{
-    font-size: 20px;
-    transition: 0.3s;
-}
-    
-@media screen and (max-width:850px) {
-    .aboutContainer{
-        grid-template-columns: 1fr;
-    }
-    .leftPart .leftPicture{
-        height: 100px;
-        width: 100px;
-    }
+@media screen and (max-width: 800px) {
+  .aboutContainer {
+    padding: 10px;
+  }
+  .aboutButton {
+    flex-direction: column;
+    gap: 25px;
+  }
 }

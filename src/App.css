@@ -1,22 +1,50 @@
-*{
-  font-family: 'Mulish', sans-serif;
+* {
+  font-family: "Mulish", sans-serif;
   scroll-behavior: smooth;
 }
-.title{
-  font-family:'Poppins', sans-serif;
+.title {
+  font-family: "Poppins", sans-serif;
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 16px;
   text-transform: uppercase;
 }
-#About, #Education, #Home, #Portfolio, #Skill, #Contact{
+#About,
+#Education,
+#Home,
+#Portfolio,
+#Skill,
+#Contact {
   width: 80%;
   margin: auto;
 }
 
-@media screen and (max-width:1200px) {
-  #About, #Education, #Home, #Portfolio, #Skill, #Contact{
+@media screen and (max-width: 1200px) {
+  #About,
+  #Education,
+  #Home,
+  #Portfolio,
+  #Skill,
+  #Contact {
     width: 75%;
     padding: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #About,
+  #Education,
+  #Home,
+  #Portfolio,
+  #Skill,
+  #Contact {
+    width: 100%;
+    padding: 10px;
+  }
+  .title {
+    font-size: 18px;
+    padding-left: 15px;
+  }
+  h1 {
+    font-size: 24px;
   }
 }
