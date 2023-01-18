@@ -6,29 +6,67 @@
 }
 
 .workCards {
-  margin-top: 20px;
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
 }
 
 .workCard {
-  padding: 30px 0px;
-  height: 500px;
-  margin-bottom: 50px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
 }
-.workCard img {
-  width: 85%;
-  height: 200px; /* Delete when put actual picture */
-  border: 1px solid;
+.workCard > img {
+  width: 250px;
+  height: 150px;
 }
-.workCard h2 {
-  font-size: 20px;
+.workCard > h3 {
+  text-transform: uppercase;
 }
-.workCard a {
+.workCard .workButton {
+  display: flex;
+  gap: 20px;
+}
+.workButton > a {
   text-decoration: none;
-  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+.workButtonIcon {
+  vertical-align: bottom;
+  margin-right: 5px;
+  font-size: 16px;
+}
+@media screen and (max-width: 1400px) {
+  .workCards {
+    width: 100%;
+  }
+  .workCard > h3 {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .workCard .workButton {
+    gap: 10px;
+  }
+  .workButton > a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .workCard > img {
+    width: 200px;
+    height: 100px;
+  }
+  .workCard > h3 {
+    font-size: 16px;
+  }
 }
