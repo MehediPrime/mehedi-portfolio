@@ -48,7 +48,7 @@ nav > ul > li > a:hover {
 @media screen and (max-width: 1140px) {
   #checkIcon {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     font-size: 50px;
     margin-right: 40px;
   }

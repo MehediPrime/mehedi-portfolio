@@ -6,7 +6,7 @@
 }
 
 .homeContainer .left {
-  width: 45%;
+  width: 40%;
   animation: leftToRight;
   animation-duration: 1.5s;
 }
@@ -22,7 +22,6 @@
 }
 .homeContainer .left h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 36px;
   font-weight: 800;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -100,26 +99,26 @@
   .homeContainer {
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
   }
   .homeContainer .left {
+    width: 100%;
     height: 30vh;
   }
   .homeContainer .left h1 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .right {
-    margin-left: 50px;
+    margin-left: 90px;
   }
   .right .cardOne {
     height: 250px;
     width: 150px;
-    top: 60vh;
+    top: 65vh;
   }
   .right .cardTwo {
     height: 250px;
     width: 150px;
-    top: 60vh;
+    top: 65vh;
   }
 }
