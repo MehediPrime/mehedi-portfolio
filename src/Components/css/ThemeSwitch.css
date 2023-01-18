@@ -1,56 +1,60 @@
-.setting{
-    position: fixed;
-    right: -100px;
-    top: 20%;
-    padding: 10px;
-    border-radius: 0px 10px 10px 10px;
-    z-index: 5;
+.setting {
+  position: fixed;
+  right: -100px;
+  top: 20%;
+  padding: 10px;
+  border-radius: 0px 10px 10px 10px;
+  z-index: 5;
 }
-.settingBtn{
-    cursor: pointer;
-    font-size: 35px;
-    position: fixed;
-    right: 10px;
-    height: 40px;
-    width: 40px;
-    padding: 4px;
-    border: none;
-    background-color: transparent;
-    animation: rotate 3s infinite linear;
-    z-index: 5;
+.settingBtn {
+  cursor: pointer;
+  font-size: 35px;
+  position: fixed;
+  right: 10px;
+  height: 40px;
+  width: 40px;
+  padding: 4px;
+  border: none;
+  background-color: transparent;
+  animation: rotate 3s infinite linear;
+  z-index: 5;
 }
-.themeChangeBtn{
-    cursor: pointer;
-    height: 50px;
-    width: 50px;
-    padding: 6px;
-    border-radius: 100%;
-    font-size: 35px;
-    transition: 0.7s;
-    z-index: 5;
+.themeChangeBtn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  padding: 6px;
+  border-radius: 100%;
+  font-size: 35px;
+  transition: 0.7s;
+  z-index: 5;
 }
-.colorChange{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 5px 0px;
-    border-radius: 5px;
-    z-index: 5;
+.colorChange {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px 0px;
+  border-radius: 5px;
+  z-index: 5;
 }
-.colorChangeBtn{
-    cursor: pointer;
-    background-color: transparent;
-    right: 60px;
-    border: none;
-    font-size: 20px;
-    transition: 0.7s;
-    z-index: 5;
+.colorChangeBtn {
+  cursor: pointer;
+  background-color: transparent;
+  right: 60px;
+  border: none;
+  font-size: 20px;
+  transition: 0.7s;
+  z-index: 5;
 }
 
-@keyframes rotate{
-    0% {transform: rotate(0deg);}
-    100% {transform: rotate(360deg);}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-.themeChangeBtn:hover{
-    animation: rotate 2s infinite linear;
+.themeChangeBtn:hover {
+  animation: rotate 2s infinite linear;
 }
