@@ -55,13 +55,23 @@ export default function Portfolio({ colorBG, colorText, colorDynamic }) {
               <h3>{value.title}</h3>
               <p>{value.technologyUsed}</p>
               <div className="workButton">
-                <a href={value.liveLink} target="_blank" style={buttonStyle}>
+                <a
+                  href={value.liveLink}
+                  target="_blank"
+                  style={buttonStyle}
+                  rel="noreferrer"
+                >
                   <span className="workButtonIcon">
                     <FcLink />
                   </span>
                   Preview
                 </a>
-                <a href={value.githubLink} target="_blank" style={buttonStyle}>
+                <a
+                  href={value.githubLink}
+                  target="_blank"
+                  style={buttonStyle}
+                  rel="noreferrer"
+                >
                   <span className="workButtonIcon">
                     <FcNext />
                   </span>
