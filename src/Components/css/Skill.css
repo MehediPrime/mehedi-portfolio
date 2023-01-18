@@ -47,7 +47,13 @@
 }
 @media screen and (max-width: 450px) {
   .skillCard {
-    height: 100px;
-    width: 70px;
+    height: 75px;
+    width: 50px;
+  }
+  .skillCard p {
+    font-size: 20px;
+  }
+  .skillCard h3 {
+    font-size: 16px;
   }
 }
