@@ -38,7 +38,7 @@
 .aboutButton a {
   font-size: 18px;
   font-weight: 600;
-  text-decoration: underline;
+  text-decoration: none;
   text-transform: uppercase;
   transition: 0.3s;
 }
@@ -46,7 +46,7 @@
   font-size: 20px;
   transition: 0.3s;
 }
-.aboutButton button {
+.aboutButton .resume {
   cursor: pointer;
   font-size: 18px;
   font-weight: 600;
@@ -55,8 +55,9 @@
   border-radius: 5px;
   text-transform: uppercase;
   transition: 0.3s;
+  text-decoration: none;
 }
-.aboutButton button:hover {
+.aboutButton .resume:hover {
   font-size: 20px;
   transition: 0.3s;
 }

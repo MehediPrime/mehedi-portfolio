@@ -39,14 +39,17 @@ export default function About({ colorBG, colorText, colorDynamic }) {
           </div>
           <div className="aboutButton">
             <a style={{ color: colorDynamic }} href="#Portfolio">
-              See my work!
+              My work!
             </a>
-            <button
+            <a
+              className="resume"
               style={{ backgroundColor: colorDynamic, color: colorBG }}
-              onClick={() => alert("Under Construction")}
+              href="https://drive.google.com/file/d/11SMNpJsLL55zir3JrTR1YbPLG8kswka9/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
             >
-              Download CV
-            </button>
+              Resume
+            </a>
           </div>
         </div>
       </div>

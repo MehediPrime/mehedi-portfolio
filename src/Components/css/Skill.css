@@ -46,6 +46,10 @@
   }
 }
 @media screen and (max-width: 450px) {
+  #Skill {
+    margin: auto 0px;
+    width: 100%;
+  }
   .skillCard {
     height: 75px;
     width: 50px;
