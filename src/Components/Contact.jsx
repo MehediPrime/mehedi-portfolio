@@ -46,7 +46,7 @@ export default function Contact({ colorBG, colorText, colorDynamic }) {
           </span>
           <span>
             <h3>Address</h3>
-            <p>North Dendabor, Ashulia, Savar, Dhaka, Bangladesh</p>
+            <p>Mirpur-01, Dhaka, Bangladesh</p>
           </span>
         </div>
         <div className="contactRight">
@@ -72,26 +72,7 @@ export default function Contact({ colorBG, colorText, colorDynamic }) {
                 Facebook
               </a>
             </div>
-            <div className="socialLink">
-              <FaGithubSquare
-                style={{
-                  fontSize: "30px",
-                  verticalAlign: "middle",
-                  marginRight: "10px",
-                  backgroundColor: "transparent",
-                }}
-              />
-              <a
-                onMouseOver={hover}
-                onMouseOut={notHover}
-                href="https://www.facebook.com/mehedi.primes/"
-                target="_blank"
-                rel="noreferrer"
-                style={style}
-              >
-                Facebook
-              </a>
-            </div>
+
             <div className="socialLink">
               <FaLinkedin
                 style={{
@@ -104,12 +85,32 @@ export default function Contact({ colorBG, colorText, colorDynamic }) {
               <a
                 onMouseOver={hover}
                 onMouseOut={notHover}
-                href="https://www.facebook.com/mehedi.primes/"
+                href="https://www.linkedin.com/in/mehediprime/"
                 target="_blank"
                 rel="noreferrer"
                 style={style}
               >
-                Facebook
+                LinkedIn
+              </a>
+            </div>
+            <div className="socialLink">
+              <FaGithubSquare
+                style={{
+                  fontSize: "30px",
+                  verticalAlign: "middle",
+                  marginRight: "10px",
+                  backgroundColor: "transparent",
+                }}
+              />
+              <a
+                onMouseOver={hover}
+                onMouseOut={notHover}
+                href="https://github.com/MehediPrime"
+                target="_blank"
+                rel="noreferrer"
+                style={style}
+              >
+                Github
               </a>
             </div>
           </div>

@@ -8,13 +8,6 @@ import portfolio from "../img/portfolio.png";
 export default function Portfolio({ colorBG, colorText, colorDynamic }) {
   const workList = [
     {
-      image: agency,
-      title: "Agency Website",
-      technologyUsed: "HTML, CSS, JavaScript, React",
-      liveLink: "https://mehediprime.github.io/Agency-Website/",
-      githubLink: "https://github.com/MehediPrime/Agency-Website",
-    },
-    {
       image: portfolio,
       title: "Personal Portfolio",
       technologyUsed: "HTML, CSS, JavaScript, React",
@@ -27,6 +20,13 @@ export default function Portfolio({ colorBG, colorText, colorDynamic }) {
       technologyUsed: "HTML, CSS, JavaScript, React",
       liveLink: "https://mehediprime.github.io/my-tools/",
       githubLink: "https://github.com/MehediPrime/my-tools/",
+    },
+    {
+      image: agency,
+      title: "Agency Website",
+      technologyUsed: "HTML, CSS, JavaScript, React",
+      liveLink: "https://mehediprime.github.io/Agency-Website/",
+      githubLink: "https://github.com/MehediPrime/Agency-Website",
     },
   ];
 

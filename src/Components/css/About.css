@@ -8,12 +8,16 @@
   justify-content: center;
   align-items: center;
 }
-.leftPart .leftPicture {
+.leftPicture {
   height: 250px;
   width: 250px;
+  background-image: url("../../img/self.jpg");
+  background-position: center;
+  background-size: cover;
   background-color: gray;
   border-radius: 7px;
 }
+
 .rightPart h1 {
   margin-bottom: 20px;
 }
