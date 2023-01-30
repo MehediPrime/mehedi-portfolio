@@ -22,10 +22,10 @@ export default function Home({ colorBG, colorText, colorDynamic }) {
     <div id="Home" style={style}>
       <div className="homeContainer">
         <div className="left">
-          <p className="title" style={{ color: colorDynamic }}>
-            S M Mehedi
-          </p>
-          <h1>Front-end web developer in Bangladesh</h1>
+          <h1 className="title" style={{ color: colorDynamic }}>
+            <strong>Mehedi</strong>
+          </h1>
+          <h2>Front-end web developer in Bangladesh</h2>
           <a
             href="#Contact"
             style={{ color: colorText }}

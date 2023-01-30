@@ -18,8 +18,9 @@
   border-radius: 7px;
 }
 
-.rightPart h1 {
+.rightPart h2 {
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .rightPart {
   font-size: 18px;
@@ -30,7 +31,7 @@
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 .aboutButton {

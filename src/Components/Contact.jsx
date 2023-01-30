@@ -26,10 +26,10 @@ export default function Contact({ colorBG, colorText, colorDynamic }) {
 
   return (
     <div id="Contact" style={initStyle}>
-      <p className="title" style={{ color: colorDynamic }}>
+      <h1 className="title" style={{ color: colorDynamic }}>
         Contact
-      </p>
-      <h1>Love to hear from you!</h1>
+      </h1>
+      <h2>Love to hear from you!</h2>
       <div className="contactContainer">
         <div className="contactLeft">
           <span>

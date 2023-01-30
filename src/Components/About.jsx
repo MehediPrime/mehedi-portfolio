@@ -11,15 +11,15 @@ export default function About({ colorBG, colorText, colorDynamic }) {
 
   return (
     <div id="About" style={initStyle}>
-      <p className="title" style={{ color: colorDynamic }}>
+      <h1 className="title" style={{ color: colorDynamic }}>
         About me
-      </p>
+      </h1>
       <div className="aboutContainer">
         <div className="leftPart">
           <div className="leftPicture"></div>
         </div>
         <div className="rightPart">
-          <h1>Hello!</h1>
+          <h2>Hello!</h2>
           <p>
             I am S M Mehedi, a front-end web developer from Bangladesh. I have
             deep understanding of the technologies and the processes required
@@ -28,13 +28,19 @@ export default function About({ colorBG, colorText, colorDynamic }) {
           </p>
           <div className="aboutContact">
             <p>
-              <strong>Email:</strong> s.mehedi2022@gmail.com
+              <strong>Email</strong>
+              <br />
+              s.mehedi2022@gmail.com
             </p>
             <p>
-              <strong>Location:</strong> Dhaka, Bangladesh.
+              <strong>Location</strong>
+              <br />
+              Dhaka, Bangladesh.
             </p>
             <p>
-              <strong>Education:</strong> B.Sc in C.S.E.
+              <strong>Education</strong>
+              <br />
+              B.Sc in C.S.E.
             </p>
           </div>
           <div className="aboutButton">

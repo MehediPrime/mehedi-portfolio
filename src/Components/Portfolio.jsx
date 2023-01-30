@@ -43,10 +43,10 @@ export default function Portfolio({ colorBG, colorText, colorDynamic }) {
 
   return (
     <div id="Portfolio" style={initStyle}>
-      <p className="title" style={{ color: colorDynamic }}>
+      <h1 className="title" style={{ color: colorDynamic }}>
         Portfolio
-      </p>
-      <h1>Selected Works</h1>
+      </h1>
+      <h2>Selected Works</h2>
       <div className="workCards">
         {workList.map((value, index) => {
           return (

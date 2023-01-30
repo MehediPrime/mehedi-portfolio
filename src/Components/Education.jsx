@@ -11,10 +11,10 @@ export default function Education({ colorBG, colorText, colorDynamic }) {
 
   return (
     <div id="Education" style={initStyle}>
-      <p className="title" style={{ color: colorDynamic }}>
+      <h1 className="title" style={{ color: colorDynamic }}>
         Education
-      </p>
-      <h1>Academic Backround</h1>
+      </h1>
+      <h2>Academic Backround</h2>
       <div className="educationContainer">
         <div className="educationTypes">
           <p className="educationYear">2018 - 2022</p>

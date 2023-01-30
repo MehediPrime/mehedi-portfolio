@@ -22,10 +22,10 @@ export default function Skill({ colorBG, colorText, colorDynamic }) {
 
   return (
     <div id="Skill" style={initStyle}>
-      <p className="title" style={{ color: colorDynamic }}>
+      <h1 className="title" style={{ color: colorDynamic }}>
         Skills
-      </p>
-      <h1>I am good at</h1>
+      </h1>
+      <h2>I am good at</h2>
       <div className="skillCards">
         <div className="skillCard">
           <h3>JavaScript</h3>
@@ -64,7 +64,7 @@ export default function Skill({ colorBG, colorText, colorDynamic }) {
           </p>
         </div>
       </div>
-      <h1>Basic knowledge</h1>
+      <h2>Basic knowledge</h2>
       <div className="skillCards">
         <div className="skillCard">
           <h3>MongoDB</h3>
