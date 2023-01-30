@@ -60,40 +60,43 @@ export default function ThemeSwitch({
       <div className="colorChange">
         <button
           className="colorChangeBtn"
+          onClick={() => colorChange("#1cbcff")}
+          style={{ color: "#1cbcff" }}
+        >
+          <FaCircle />
+        </button>
+        <button
+          className="colorChangeBtn"
+          onClick={() => colorChange("#00cc66")}
+          style={{ color: "#00cc66" }}
+        >
+          <FaCircle />
+        </button>
+
+        <button
+          className="colorChangeBtn"
           onClick={() => colorChange("#ff4522")}
           style={{ color: "#ff4522" }}
         >
-          {" "}
-          <FaCircle />{" "}
+          <FaCircle />
         </button>
         <button
           className="colorChangeBtn"
-          onClick={() => colorChange("#66b95c")}
-          style={{ color: "#66b95c" }}
+          onClick={() => colorChange("#bf14cd")}
+          style={{ color: "#bf14cd" }}
         >
-          {" "}
-          <FaCircle />{" "}
+          <FaCircle />
         </button>
         <button
           className="colorChangeBtn"
-          onClick={() => colorChange("#00d4bd")}
-          style={{ color: "#00d4bd" }}
+          onClick={() => colorChange("#6c63ff")}
+          style={{ color: "#6c63ff" }}
         >
-          {" "}
-          <FaCircle />{" "}
-        </button>
-        <button
-          className="colorChangeBtn"
-          onClick={() => colorChange("#fe0000")}
-          style={{ color: "#fe0000" }}
-        >
-          {" "}
-          <FaCircle />{" "}
+          <FaCircle />
         </button>
       </div>
       <button className="themeChangeBtn" onClick={themeChange} style={style}>
-        {" "}
-        <FaSun />{" "}
+        <FaSun />
       </button>
     </div>
   );
