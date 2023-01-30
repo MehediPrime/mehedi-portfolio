@@ -1,4 +1,3 @@
-import React from "react";
 import "./css/Education.css";
 
 export default function Education({ colorBG, colorText, colorDynamic }) {

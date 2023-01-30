@@ -1,4 +1,3 @@
-import React from "react";
 import "./css/Portfolio.css";
 import { FcLink, FcNext } from "react-icons/fc";
 import agency from "../img/agency.png";

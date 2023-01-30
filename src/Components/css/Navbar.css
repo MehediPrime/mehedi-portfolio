@@ -36,21 +36,17 @@ nav > ul {
 nav > ul > li > a {
   text-decoration: none;
   font-size: 18px;
-  transform-origin: bottom right;
-  transform: scaleX(0);
-  transition: 0.5s ease;
-}
-
-nav > ul > li > a:hover {
-  transform: scaleX(1);
 }
 
 @media screen and (max-width: 1140px) {
   #checkIcon {
+    cursor: pointer;
     display: flex;
     justify-content: flex-end;
-    font-size: 50px;
-    margin-right: 40px;
+    margin-right: 20px;
+  }
+  #checkIcon > svg {
+    font-size: 40px;
   }
   .menuList {
     position: fixed;
@@ -62,7 +58,7 @@ nav > ul > li > a:hover {
     flex-direction: column;
     justify-content: flex-start;
     border-left: 1px solid;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   .menuList > li {
     margin-top: 50px;

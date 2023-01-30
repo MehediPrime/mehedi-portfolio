@@ -1,4 +1,3 @@
-import React from "react";
 import "./css/Contact.css";
 import { FaGithubSquare, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 

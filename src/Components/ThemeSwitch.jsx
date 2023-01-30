@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./css/ThemeSwitch.css";
 import { FaSun, FaCircle } from "react-icons/fa";
 import { AiFillSetting } from "react-icons/ai";
