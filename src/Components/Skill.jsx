@@ -8,7 +8,7 @@ import {
   SiGithub,
   SiMongodb,
   SiJava,
-  SiPython,
+  SiExpress,
 } from "react-icons/si";
 
 export default function Skill({ colorBG, colorText, colorDynamic }) {
@@ -78,9 +78,9 @@ export default function Skill({ colorBG, colorText, colorDynamic }) {
           </p>
         </div>
         <div className="skillCard">
-          <h3>Python</h3>
-          <p style={{ color: "#30699b" }}>
-            <SiPython />
+          <h3>Express</h3>
+          <p style={{ color: colorText }}>
+            <SiExpress />
           </p>
         </div>
       </div>
