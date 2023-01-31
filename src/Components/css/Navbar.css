@@ -52,7 +52,7 @@ nav > ul > li > a {
     position: fixed;
     height: 100%;
     width: 40%;
-    top: 75px;
+    top: 60px;
     right: -800px;
     display: flex;
     flex-direction: column;
