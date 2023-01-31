@@ -23,12 +23,16 @@ export default function About({ colorBG, colorText, colorDynamic }) {
         <div className="rightPart">
           <h2>Hello!</h2>
           <p>
-            I am S M Mehedi, a front-end web developer from Bangladesh. I have
-            deep understanding of the technologies and the processes required
-            for realising a successful web project from A to Z. I'm ready and
-            eager to work to create something simple and unique.
+            I am Mehedi, a front-end web developer from Bangladesh. I have deep
+            understanding of the technologies and the processes required for
+            realising a successful web project from A to Z. I'm ready and eager
+            to work to create something simple and unique.
           </p>
           <div className="aboutContact">
+            <p>
+              <strong>Full Name</strong>
+              <br />S M Mehedi
+            </p>
             <p>
               <strong>Email</strong>
               <br />
