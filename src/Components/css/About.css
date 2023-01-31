@@ -9,12 +9,8 @@
   align-items: center;
 }
 .leftPicture {
-  height: 250px;
-  width: 250px;
-  background-image: url("../../img/self.jpg");
   background-position: center;
   background-size: cover;
-  background-color: gray;
   border-radius: 7px;
 }
 
@@ -71,9 +67,8 @@
   .aboutContainer {
     grid-template-columns: 1fr;
   }
-  .leftPart .leftPicture {
-    height: 100px;
-    width: 100px;
+  .leftPart .leftPicture > img {
+    width: 150px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -83,5 +78,8 @@
   .aboutButton {
     flex-direction: column;
     gap: 25px;
+  }
+  .leftPart .leftPicture > img {
+    width: 100px;
   }
 }

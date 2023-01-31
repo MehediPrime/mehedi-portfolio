@@ -1,4 +1,5 @@
 import "./css/About.css";
+import myFace from "../img/face.jpg";
 
 export default function About({ colorBG, colorText, colorDynamic }) {
   const initStyle = {
@@ -15,7 +16,9 @@ export default function About({ colorBG, colorText, colorDynamic }) {
       </h1>
       <div className="aboutContainer">
         <div className="leftPart">
-          <div className="leftPicture"></div>
+          <div className="leftPicture">
+            <img src={myFace} alt="my face" width="250px" />
+          </div>
         </div>
         <div className="rightPart">
           <h2>Hello!</h2>
