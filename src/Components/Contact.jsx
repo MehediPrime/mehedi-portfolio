@@ -41,7 +41,7 @@ export default function Contact({ colorBG, colorText, colorDynamic }) {
           </span>
           <span>
             <h3>Phone</h3>
-            <p>+880-1981-788997</p>
+            <p>+880-1303-695605</p>
           </span>
           <span>
             <h3>Address</h3>
