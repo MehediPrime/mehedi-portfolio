@@ -56,7 +56,7 @@ export default function About({ colorBG, colorText, colorDynamic }) {
             <a
               className="resume"
               style={{ backgroundColor: colorDynamic, color: colorBG }}
-              href="https://drive.google.com/file/d/11SMNpJsLL55zir3JrTR1YbPLG8kswka9/view?usp=sharing"
+              href="https://drive.google.com/file/d/1rq66V7Fs6gFX09_8iqe2H3RTk6VpEklu/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
